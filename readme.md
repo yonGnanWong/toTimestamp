@@ -5,9 +5,9 @@
 * win请加入环境变量
 
 
-go build -o ./自己起名        //这里将程序编译为你想要的名字的可执行文件(名字可以自己改,自己看顺眼就可以,目录名为t的文件可以直接用)
+> go build -o ./自己起名        //这里将程序编译为你想要的名字的可执行文件(名字可以自己改,自己看顺眼就可以,目录名为t的文件可以直接用)
 
-sudo cp ./t /Users/yongnan_wong/bin/        //赋值文件到bin目录
+> sudo cp ./macos/t /Users/yongnan_wong/bin/        //复制文件到bin目录(如果是window系统请复制windows目录下的.exe文件)
 
 ~~~golang
 ./t 1576022400                //仅支持10位时间戳
